@@ -1,0 +1,13 @@
+### Create or update draft
+POST http://localhost:8080/api/timecards/E1/2026-01-01
+Content-Type: application/json
+
+{
+  "entries": [
+    {
+      "date": "2026-01-01",
+      "jobCode": "DEV",
+      "minutes": 480
+    }
+  ]
+}
